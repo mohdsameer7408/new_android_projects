@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/storage_title">
+
+        <CheckBoxPreference
+            android:key="pref_delete_old_message"
+            android:title="@string/delete_message_title"
+            android:summary="@string/delete_message_summary"
+            android:defaultValue="true"/>
+
+        <ListPreference
+            android:key="sms_delete_limit"
+            android:title="@string/sms_limit_title"
+            android:summary="@string/sms_limit_summary"
+            android:dependency="pref_delete_old_message"
+            android:dialogTitle="@string/sms_limit_title"
+            android:entries="@array/message_limit_entries"
+            android:entryValues="@array/message_limit_values"
+            android:defaultValue="@string/limit_default_value"
+            />
+
+        <ListPreference
+            android:key="mms_delete_limit"
+            android:title="@string/mms_limit_title"
+            android:summary="@string/mms_limit_summary"
+            android:dependency="pref_delete_old_message"
+            android:dialogTitle="@string/mms_limit_title"
+            android:entries="@array/message_limit_entries"
+            android:entryValues="@array/message_limit_values"
+            android:defaultValue="@string/limit_default_value"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/sms_title">
+
+        <CheckBoxPreference
+            android:key="pref_delivery_report_sms"
+            android:title="@string/delivery_report_title"
+            android:summary="@string/delivery_reports_summary"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/mms_title">
+
+        <CheckBoxPreference
+            android:key="pref_delivery_report_mms"
+            android:title="@string/delivery_report_title"
+            android:summary="@string/delivery_reports_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

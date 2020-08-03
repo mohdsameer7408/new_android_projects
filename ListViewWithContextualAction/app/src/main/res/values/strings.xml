@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ListViewWithContextualAction</string>
+
+    <string-array name="fruits">
+        <item>Apple</item>
+        <item>Grapes</item>
+        <item>Orange</item>
+        <item>Mango</item>
+        <item>Watermelon</item>
+        <item>Banana</item>
+        <item>Tomato</item>
+        <item>JackFruit</item>
+        <item>Kiwi</item>
+    </string-array>
+</resources>

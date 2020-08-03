@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/posts"
+        android:icon="@drawable/ic_posts"
+        android:title="Posts" />
+
+    <item
+        android:id="@+id/new_post"
+        android:icon="@drawable/ic_new_post"
+        android:title="New Post" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile" />
+
+</menu>

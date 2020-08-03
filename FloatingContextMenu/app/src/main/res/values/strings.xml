@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FloatingContextMenu</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="report">Report</string>
+    <string name="track_info">Track Info</string>
+</resources>

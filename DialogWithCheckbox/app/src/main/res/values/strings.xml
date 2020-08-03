@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DialogWithCheckbox</string>
+
+    <string-array name="toppings">
+        <item>Onion</item>
+        <item>Lettuce</item>
+        <item>Tomato</item>
+    </string-array>
+</resources>

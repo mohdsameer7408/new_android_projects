@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SettingsHeader</string>
+
+    <string name="storage_title">STORAGE</string>
+    <string name="sms_title">TEXT (SMS) MESSAGES</string>
+    <string name="mms_title">MULTIMEDIA (MMS) MESSAGES</string>
+
+    <string name="delete_message_title">Delete old messages</string>
+    <string name="delete_message_summary">Delete old messages as limits are reached</string>
+
+    <string name="sms_limit_title">Text message limit</string>
+    <string name="sms_limit_summary">200 messages per conversation</string>
+
+    <string name="mms_limit_title">Multimedia message limit</string>
+    <string name="mms_limit_summary">150 messages per conversation</string>
+
+    <string name="delivery_report_title">Delivery reports</string>
+    <string name="delivery_reports_summary">Request a delivery report for each message you send</string>
+
+    <string-array name="message_limit_entries">
+        <item>150 Messages/Conversations</item>
+        <item>300 Messages/Conversations</item>
+        <item>500 Messages/Conversations</item>
+    </string-array>
+
+    <string-array name="message_limit_values">
+        <item>150</item>
+        <item>300</item>
+        <item>500</item>
+    </string-array>
+
+    <string name="limit_default_value">500</string>
+
+    <string name="general_title">General</string>
+    <string name="general_summary">Manage General Settings of App</string>
+
+    <string name="about_app_title">About App</string>
+    <string name="about_app_summary">App Version, Terms and Conditions, privacy policy</string>
+
+    <string name="app_version_title">App Version</string>
+    <string name="app_version_summary">Current Version : 2.5</string>
+
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_summary">Read our privacy policy and terms</string>
+
+</resources>

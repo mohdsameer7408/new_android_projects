@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/storage_group_title">
+
+        <CheckBoxPreference
+            android:key="pref_delete_old_message"
+            android:title="@string/delete_message_title"
+            android:summary="@string/delete_message_summary"
+            android:defaultValue="true"/>
+
+        <ListPreference
+            android:dependency="pref_delete_old_message"
+            android:key="sms_delete_limit"
+            android:title="@string/text_message_limit_title"
+            android:summary="@string/text_message_limit_summary"
+            android:dialogTitle="@string/text_message_limit_title"
+            android:entries="@array/message_limit_entries"
+            android:entryValues="@array/message_limit_values"
+            android:defaultValue="@string/limit_default_value"/>
+
+        <ListPreference
+            android:dependency="pref_delete_old_message"
+            android:key="mms_delete_limit"
+            android:title="@string/multimedia_message_limit_title"
+            android:summary="@string/multimedia_message_limit_summary"
+            android:dialogTitle="@string/multimedia_message_limit_title"
+            android:entries="@array/message_limit_entries"
+            android:entryValues="@array/message_limit_values"
+            android:defaultValue="@string/limit_default_value"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/text_message_group_title">
+
+        <CheckBoxPreference
+            android:key="pref_delivery_reports_sms"
+            android:title="@string/delivery_report_title"
+            android:summary="@string/delivery_reports_summary"
+            android:defaultValue="true"/>
+
+        <Preference
+            android:dependency="pref_delivery_reports_sms"
+            android:title="@string/sim_card_message__title"
+            android:summary="@string/sim_card_message__summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/text_multimedia_message_group_title">
+
+        <CheckBoxPreference
+            android:key="pref_delivery_reports_mms"
+            android:title="@string/delivery_report_title"
+            android:summary="@string/delivery_reports_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/ringtone_title_group">
+
+        <Preference
+            android:title="@string/phone_ringtone_title"
+            android:summary="The Morror"/>
+
+        <CheckBoxPreference
+            android:key="pref_vibrate_when_ring"
+            android:title="@string/vibrate_ringing_title"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/other_call_settings_title_group">
+
+        <PreferenceScreen
+            android:title="@string/voice_mail_title"
+            android:key="pref_voice_mail"
+            android:persistent="false">
+
+            <Preference
+                android:title="@string/service_title"
+                android:summary="@string/service_summary"/>
+
+            <Preference
+                android:title="@string/setup_title"/>
+
+            <Preference
+                android:title="@string/ringtone_title"/>
+
+            <Preference
+                android:title="@string/vibrate_title"
+                android:summary="@string/vibrate_summary"/>
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <CheckBoxPreference
+        android:key="pref_sync"
+        android:title="@string/sync_pref"
+        android:summary="@string/sync_pref_summary"
+        android:defaultValue="true"/>
+
+    <ListPreference
+        android:dependency="pref_sync"
+        android:key="@string/pref_syncConnectionType"
+        android:title="@string/pref_syncConnectionType"
+        android:entries="@array/pref_syncConnectionType_entries"
+        android:entryValues="@array/pref_syncConnectionType_values"
+        android:defaultValue="@string/pref_syncConnectionType_default_value"
+        android:summary="@string/pref_syncConnectionType_summary"/>
+
+</PreferenceScreen>

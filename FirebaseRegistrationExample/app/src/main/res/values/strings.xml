@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Blog App</string>
+    <string name="authentication_app">My Blog App</string>
+    <string name="create_your_account">Create Your Account</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="sign_in_page">Have an account? SignIn here</string>
+    <string name="sign_in_here">Sign In Here</string>
+    <string name="login">LogIn</string>
+    <string name="register_page">Need an account? Register here</string>
+    <string name="logout">LogOut</string>
+    <string name="user_profile">Your Profile</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="email_not_verified">Email Not Verified !</string>
+    <string name="verify_mail">Verify Mail</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="change_profile">Edit Profile</string>
+    <string name="save">Update Profile</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="post_title">Post Title</string>
+    <string name="post_content">Post Content</string>
+    <string name="create_a_post">Create a Post</string>
+    <string name="create_new_post">Create New Post</string>
+    <string name="post">Post</string>
+</resources>

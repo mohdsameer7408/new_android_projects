@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TikTakToe</string>
+
+    <string name="welcome">Welcome To TikTakToe</string>
+    <string name="x_turn">X\'s turn tap to play</string>
+    <string name="o_turn">O\'s turn tap to play</string>
+    <string name="btn_reset">Reset</string>
+    <string name="img_description">My Grid</string>
+    <string name="tie">It\'s a tie!!!</string>
+
+</resources>

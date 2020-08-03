@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CustomNotification</string>
+
+    <string name="notification_text">
+        It\'s good to see that people having no money, but have got a big heart.
+        I really don\'t think giving money to beggars can ever be a good option. When nothing in this
+        world comes for free, why should beggars get money by mere sympathy instead of hard work?
+        As I’m pursuing my B. Tech from Lucknow and I live as PG, so there are expenses.
+    </string>
+</resources>
